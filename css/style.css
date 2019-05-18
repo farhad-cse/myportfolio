@@ -1,0 +1,301 @@
+body{
+	font-family: 'Kalam', cursive;
+
+
+}
+.icon-top{
+	background:#2a9134;
+}
+.icon-top a{
+	color:#f1fffa; 
+}
+.icon-top i{
+	color: #2a9134;
+	background:#f1fffa;
+	font-size: 25px;
+	transition: color 1s ease-in-out;
+
+}
+.icon-top i:hover{
+	color: #242424;
+}
+
+.navbar {
+  background: #242424!important;
+  padding: 10px 20px!important;
+  transition: padding 2s ease;
+}
+
+.navbar-background {
+  padding: 2px 20px!important
+}
+
+
+
+
+.navbar-brand {
+  color: #2a9134;
+  border: 3px solid #2a9134;
+  font-size: 30px;
+  transition: all 2s;
+}
+
+.navbar-brand:hover {
+  background: #2a9134;
+  color: #242424;
+}
+
+.navbar-toggler {
+  border: 3px solid #2a9134;
+  padding: 3px;
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  background: #2a9134;
+  transition: all 0.5s ease;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -8px);
+}
+
+
+
+
+.nav-link {
+  color: #f1fffa;
+  font-size: 25px;
+  padding: 10px 20px!important;
+  border-radius: 5px;
+  transition: background 2s ease;
+}
+
+.nav-link:hover {
+  background: #2a9134;
+  color: #f1fffa;
+
+}
+
+.nav-active {
+  color: #f1fffa;
+  font-size: 25px;
+  padding: 10px 20px!important;
+  border-radius: 5px;
+  background: rgba(42, 145, 52, 0.6);
+  transition: background 2s ease;
+}
+
+.nav-active:hover {
+  background: #2a9134;
+}
+
+.search-btn {
+  background: #2a9134;
+  transition: all 1s ease;
+}
+
+.search-btn:hover {
+  color: #2a9134;
+  background: #191919;
+}
+.tittle h1 {
+	color: #242424;
+}
+.tittle h3{
+	color: #5a5a5a;
+}
+.tittle-underline{
+	height: 5px;
+	width: 250px;
+	background:#2a9134;
+	margin: -28px auto 0 auto;
+}
+.tittle a{
+	color: #2a9134;
+	font-size: 30px;
+	padding: 0 10px;
+	display: inline-block;
+	background: #f1fffa;
+}
+.skills-icon {
+  background: #242424;
+  clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+  transition: all 1s ease;
+
+}
+
+.skills-icon:hover {
+  background: #2a9134;
+}
+
+
+.skills-icon span {
+  font-size: 100px;
+  color: #909090;
+  transition: all 1s ease-in-out;
+}
+
+.skills-icon:hover span {
+  color: #f1fffa;
+}
+/*-----------about----------*/
+#about .title a {
+  background: #909090;
+}
+#about {
+  min-height: 40vh;
+  background: #909090;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+
+}
+.about-text a {
+  color: #f1fffa;
+  background: #2a9134;
+  border: 2px solid #2a9134;
+  transition: all 1s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.about-text a:hover {
+  color: #2a9134;
+  background: #f1fffa;
+  border-color: #f1fffa;
+  transform: translateY(-7px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+
+}
+
+.about-progress {
+  min-height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/video-filler.jpeg)center/cover fixed no-repeat;
+  outline: 5px solid #2a9134;
+  outline-offset: 10px;
+}
+
+
+
+
+.progress-bar {
+  background: #2a9134;
+
+}
+/*post section*/
+#posts .card {
+  background: transparent!important;
+  border: none;
+  position: relative;
+}
+
+#posts .card-img-top {
+  border-radius: 0!important;
+}
+
+#posts .card-footer {
+  background: transparent;
+
+}
+
+.post-link {
+  color: #2a9134;
+  transition: all 1s ease-in-out;
+}
+
+.post-link:hover {
+  color: #dd0000;
+  text-decoration: none;
+
+}
+
+.corner-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #dd0000;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+#posts .card:hover .corner-text {
+  opacity: 1;
+}
+/*contact section*/
+.height-60 {
+  min-height: 80vh;
+}
+
+#contact {
+  background: linear-gradient(rgba(42, 145, 52, 0.3), rgba(42, 145, 52, 0.3)), url(img/banner-1.jpeg)center/cover fixed no-repeat;
+}
+
+
+#contact .card {
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 2s ease;
+}
+
+#contact .card:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#contact .card-header {
+  color: #2a9134;
+}
+
+#contact .input-group-text {
+  background: #2a9134;
+  border-color: #2a9134;
+  color: #242424
+}
+
+#contact .card input {
+  color: #606060;
+}
+
+#contact .card input::placeholder {
+  color: #606060;
+}
+
+.contact-btn {
+  color: #f1fffa;
+  background: #2a9134;
+  transition: all 2s ease-in-out;
+}
+
+.contact-btn:hover {
+  background: transparent;
+  border-color: #2a9134;
+  color: #2a9134;
+}
+/*footer*/
+footer {
+  background: #242424;
+}
+
+.footer-icons a {
+  color: #2a9134;
+  font-size: 25px;
+  transition: color 1s ease;
+
+}
+
+.footer-icons a:hover {
+  color: #f1fffa;
+}
+
+footer h5 {
+  color: #f1fffa;
+}
